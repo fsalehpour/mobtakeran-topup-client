@@ -1,0 +1,12 @@
+{
+    "name": "fsalehpour/mobtakeran-topup-client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Faramarz Salehpour",
+            "email": "subs@marz.co"
+        }
+    ],
+    "require": {}
+}
