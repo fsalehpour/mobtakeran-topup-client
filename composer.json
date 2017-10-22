@@ -13,6 +13,7 @@
   },
   "require": {
     "php": "^7.0",
-    "ext-soap": "*"
+    "ext-soap": "*",
+    "vlucas/phpdotenv": "^2.4"
   }
 }
