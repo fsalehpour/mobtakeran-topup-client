@@ -1,12 +1,18 @@
 {
-    "name": "fsalehpour/mobtakeran-topup-client",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Faramarz Salehpour",
-            "email": "subs@marz.co"
-        }
-    ],
-    "require": {}
+  "name": "fsalehpour/mobtakeran-topup-client",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Faramarz Salehpour",
+      "email": "subs@marz.co"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "FSalehpour\\Mobtakeran\\": "src/"}
+  },
+  "require": {
+    "php": "^7.0",
+    "ext-soap": "*"
+  }
 }
